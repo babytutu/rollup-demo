@@ -4,7 +4,8 @@
   "description": "rollup-demo with babel&eslint",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "gulp": "gulp"
   },
   "keywords": [
     "rollup",
@@ -18,6 +19,7 @@
     "babel-plugin-external-helpers": "^6.22.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^5.2.0",
+    "gulp": "^3.9.1",
     "rollup": "^0.63.4",
     "rollup-plugin-babel": "^3.0.7",
     "rollup-plugin-babel-minify": "^5.0.0",

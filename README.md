@@ -44,3 +44,9 @@ npm run build
 ```
 
 - 会在dist目录生成2个文件
+
+```bash
+npm run gulp
+```
+
+- 会在dist目录生成2个带gulp的文件，与上面结果相同，是两种不同的打包方式

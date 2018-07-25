@@ -18,9 +18,7 @@ export default {
     },
   ],
   plugins: [
-    minify({
-      // comments: false
-    }),
+    minify(),
     resolve(),
     commonjs(),
     babel(),
